@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="CV_Entity.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="Default.aspx">CV Sitesi</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="Istatistik.aspx">İSTATİSTİKLER</a></li>
+                    <li><a href="Yeteneklerim.aspx">YETENEKLERİM</a></li>
+                    <li><a href="Okullarim.aspx">OKULLARIM</a></li>
+                    <li><a href="Hobilerim.aspx">HOBİLERİM</a></li>
+                    <li><a href="Deneyimler.aspx">İŞ DENEYİMLERİM</a></li>
+                    <li><a href="Acıklamalar.aspx">AÇIKLAMALAR</a></li>
+                    <li><a href="YabanciDil.aspx">YABANCI DİL</a></li>
+                    <li><a href="Iletisim.aspx">İLETİŞİM</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div class="container">
+                    
+                </div>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

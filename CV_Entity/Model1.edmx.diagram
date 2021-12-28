@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="98f8269cd55647bc9f0f6b55d069f919" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLADRES" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLHAKKIMDA" Width="1.5" PointX="0.5" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLILETISIM" Width="1.5" PointX="2.375" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLYETENEKLER" Width="1.5" PointX="2.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLADMIN" Width="1.5" PointX="4.25" PointY="2.875" />
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLHOBILER" Width="1.5" PointX="4.375" PointY="0.5" />
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLDIL" Width="1.5" PointX="6.125" PointY="0.5" />
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLBELGE" Width="1.5" PointX="7.875" PointY="0.5" />
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLACIKLAMA" Width="1.5" PointX="7.875" PointY="2.75" />
+        <EntityTypeShape EntityType="DbCvEntityModel.TBLDENEYIMLER" Width="1.5" PointX="6" PointY="2.875" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
